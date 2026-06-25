@@ -12,7 +12,7 @@ This software accompanies the following publication:
 
 **Title:** **Automated Multi-Scale Morphometry Analysis of Fibrous Networks**
 
-***Authors:** **Sandesh Giri, Kenneth Gordon, Karson Vidrine, Ling Fei*, and Sen Liu***
+***Authors:** ***Sandesh Giri, Kenneth Gordon, Karson Vidrine, Ling Fei, and Sen Liu***
 
 **Published:** *American Chemical Society (ACS), March 2026.*
 
@@ -72,24 +72,11 @@ No Python installation is required.
 ## Usage
 
 1. Launch **Fiber Analyzer GUI**.
-2. Load an SEM image.
+2. Load an SEM/TEM image.
 3. Select the desired analysis settings.
 4. Run automated morphometric analysis.
 5. Review visualization and quantitative results.
 6. Export measurements for statistical analysis.
-
----
-
-## Repository Structure
-
-```text
-Fiber-Analyzer-GUI/
-│
-├── README.md
-├── LICENSE
-├── Releases/
-└── Source files
-```
 
 ---
 
@@ -102,13 +89,15 @@ If you use Fiber Analyzer GUI in your research, please cite:
 ```bibtex
 @article{giri2026automated,
   title={Automated Multi-Scale Morphometry Analysis of Fibrous Networks},
-  author={Giri, Sandesh and Gordon, Kenneth and Vidrine, Karson and Fei, Ling and Liu, Sen},
-  journal={ACS Omega},
-  volume={11},
-  number={12},
-  pages={19799--19810},
-  year={2026},
-  DOI: {https://doi.org/10.1021/acsomega.6c00451},
+  author = {Giri, Sandesh and Gordon, Kenneth and Vidrine, Karson and Fei, Ling and Liu, Sen},
+  title = {Automated Multi-Scale Morphometry Analysis of Fibrous Networks},
+  journal = {ACS Omega},
+  volume = {11},
+  number = {12},
+  pages = {19799-19810},
+  year = {2026},
+  doi = {10.1021/acsomega.6c00451},
+  URL = { https://doi.org/10.1021/acsomega.6c00451}
   publisher={ACS Publications}
 }
 ```
